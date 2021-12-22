@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="classDate.js"></script>
+</head>
+<body>
+<script>
+    let date1 = new MyDate(2, 2, 2020)
+
+    let day1 = date1.day
+    let month1 = date1.month
+    let year1 = date1.year
+    alert(day1 + "/" + month1 + "/" + year1);
+
+    let date2 = new MyDate()
+    date2.day = '15'
+    date2.month = '3'
+    date2.year = '2021'
+
+    let day2 = date2.day
+    let month2 = date2.month
+    let year2 = date2.year
+
+
+    alert(day2 + "/" + month2 + "/" + year2);
+</script>
+</body>
+</html>
